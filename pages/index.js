@@ -8,17 +8,17 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Toolbox</title>
+        <title>Welcome to H-Street Media</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Next.js Toolbox" />
+        <Header title="Welcome to H-Street" />
         <p className="description">
-          Here's an example of a Netlify Form! When you fill this out, the submissions can be found in the Netlify Admin site.
+          We welcome you to H-Street Media.   We are still working on our site. Check back soon.
         </p>
         <FeedbackForm />
-        <JokeBlock/>
+        <JokeBlock />
       </main>
       <Footer />
     </div>
